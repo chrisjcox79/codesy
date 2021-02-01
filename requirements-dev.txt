@@ -5,3 +5,4 @@ ipython==4.1.2
 Sphinx==1.7.5
 sphinx-rtd-theme==0.1.9
 django-debug-toolbar==1.4
+django>=2.2.18 # not directly required, pinned by Snyk to avoid a vulnerability
