@@ -5,3 +5,6 @@ ipython==4.1.2
 Sphinx==1.7.5
 sphinx-rtd-theme==0.1.9
 django-debug-toolbar==1.4
+django>=2.2.27 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.4.2 # not directly required, pinned by Snyk to avoid a vulnerability
